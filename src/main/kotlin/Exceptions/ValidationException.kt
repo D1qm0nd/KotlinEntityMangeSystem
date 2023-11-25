@@ -1,4 +1,5 @@
 package Exceptions
 
-class ValidationException(message : String?) : Exception(message) {
+class ValidationException : Exception {
+    constructor(message: String?) : super(message)
 }
